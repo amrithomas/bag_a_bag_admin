@@ -52,4 +52,18 @@ $app->singleton(
 |
 */
 
+if (! function_exists('resources')) {
+    /**
+     * Get the fully qualified path to the resources directory.
+     *
+     * @param  string  $path
+     * @return string
+     */
+    function resources($path = '')
+    {
+        return app()->basePath('resources') . ($path ? DIRECTORY_SEPARATOR . ltrim($path, DIRECTORY_SEPARATOR) : $path);
+    }
+}
+
+
 return $app;
