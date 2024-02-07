@@ -1,6 +1,5 @@
 # Bag-a-Bag
 
-<img src="assets/img/airplane_favicon.png" alt="Exemplo imagem">
 
 
 ## Sobre o projeto
